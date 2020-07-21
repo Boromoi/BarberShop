@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*Image Slider*@
+    <div class="sizecontainer">
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/assets/images/BackgroundVeranderd.jpg" />
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Do you want beautiful hair?</h1>
+                        <h3>We can fix that for you!</h3>
+                        <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+                        <button type="button" class="btn btn-primary btn-lg">Get Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/assets/images/Background2.jpg" />
+                </div>
+                <div class="carousel-item">
+                    <img src="~/assets/images/Background3.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+        @*What we profide*@
+<div class="container-fluid padding">
+    <hr class="my-4" style="background-color:lightgray; margin-top:80px;">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Provided by us.</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">We provide three different services: Dying hair, Cutting hair and Washing your hair.</p>
+        </div>
+    </div>
+</div>
+
+        @*Three collumn section*@
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fa fa-paint-brush"></i>
+                    <h3>Dying</h3>
+                    <p>We paint your hair to the color you want.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fa fa-scissors"></i>
+                    <h3>Cutting</h3>
+                    <p>We cut your hair to the style you want.</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <i class="fa fa-scissors"></i>
+                    <h3>Washing</h3>
+                    <p>We wash your hair with a nice hair massage included.</p>
+                </div>
+            </div>
+            <hr class="my-4" style="background-color:lightgray;">
+        </div>
