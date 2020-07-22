@@ -4,16 +4,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop", "OnlineShop.csproj", "{15F78447-E86D-4C45-B707-0A7EAFC0BD67}"
-	ProjectSection(ProjectDependencies) = postProject
-		{88AEED36-3F12-4070-96FE-CFB1F7A76846} = {88AEED36-3F12-4070-96FE-CFB1F7A76846}
-		{34E04068-8544-466C-9A99-2DBBC1CDFAB2} = {34E04068-8544-466C-9A99-2DBBC1CDFAB2}
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberShop.Domain", "..\DataBaseAanmaak\BarberShop.Domain.csproj", "{34E04068-8544-466C-9A99-2DBBC1CDFAB2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberShop.Data", "..\BarberShop.Data\BarberShop.Data.csproj", "{88AEED36-3F12-4070-96FE-CFB1F7A76846}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backup", "..\Backup\Backup.csproj", "{20169CED-1CEE-4BC2-8DEA-2B45571C9506}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberShop.Data", "BarberShop.Data\BarberShop.Data.csproj", "{1E648B7B-14F9-4E1D-A290-3AF4F0416BA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberShop.Domain", "BarberShop.Domain\BarberShop.Domain.csproj", "{801688BC-96E7-4282-9534-FA9CD11320C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +21,18 @@ Global
 		{15F78447-E86D-4C45-B707-0A7EAFC0BD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F78447-E86D-4C45-B707-0A7EAFC0BD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F78447-E86D-4C45-B707-0A7EAFC0BD67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34E04068-8544-466C-9A99-2DBBC1CDFAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34E04068-8544-466C-9A99-2DBBC1CDFAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34E04068-8544-466C-9A99-2DBBC1CDFAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34E04068-8544-466C-9A99-2DBBC1CDFAB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88AEED36-3F12-4070-96FE-CFB1F7A76846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88AEED36-3F12-4070-96FE-CFB1F7A76846}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88AEED36-3F12-4070-96FE-CFB1F7A76846}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88AEED36-3F12-4070-96FE-CFB1F7A76846}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20169CED-1CEE-4BC2-8DEA-2B45571C9506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20169CED-1CEE-4BC2-8DEA-2B45571C9506}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20169CED-1CEE-4BC2-8DEA-2B45571C9506}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20169CED-1CEE-4BC2-8DEA-2B45571C9506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E648B7B-14F9-4E1D-A290-3AF4F0416BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E648B7B-14F9-4E1D-A290-3AF4F0416BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E648B7B-14F9-4E1D-A290-3AF4F0416BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E648B7B-14F9-4E1D-A290-3AF4F0416BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801688BC-96E7-4282-9534-FA9CD11320C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801688BC-96E7-4282-9534-FA9CD11320C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801688BC-96E7-4282-9534-FA9CD11320C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801688BC-96E7-4282-9534-FA9CD11320C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
